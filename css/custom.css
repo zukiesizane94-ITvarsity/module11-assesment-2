@@ -1,0 +1,59 @@
+html{
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.blog-header{
+    margin-top: 8rem;
+    max-width: 800px;
+}
+
+@media (max-width: 768px){
+    .blog-header{
+        margin-top: 8rem;
+    }
+}
+
+.container{
+    max-width: 860px;
+}
+
+.team{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+
+.card-deck .card{
+    min-width: 220px;
+}
+
+.card-text{
+    padding-top: 1rem;
+}
+
+.card-block{
+    min-height: 220px;
+}
+
+
+h2{
+    text-align: center;
+    border: solid 1px;
+}
+
+.btn-group{
+    left: 570px;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
